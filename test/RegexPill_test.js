@@ -1,6 +1,6 @@
 'use strict';
 
-var regex_pill = require('../lib/regex-pill.js');
+var RegexPill = require('../lib/regex-pill.js');
 
 /*
   ======== A Handy Little Nodeunit Reference ========
@@ -22,15 +22,24 @@ var regex_pill = require('../lib/regex-pill.js');
     test.ifError(value)
 */
 
-exports['awesome'] = {
-  setUp: function(done) {
-    // setup here
-    done();
-  },
-  'no args': function(test) {
-    test.expect(1);
-    // tests here
-    test.equal(regex_pill.awesome(), 'awesome', 'should be awesome.');
-    test.done();
-  },
+exports['Instantiation'] = {
+    setUp: function(done) {
+        done();
+    },
+    'No Errors': function(test) {
+        test.expect(1);
+
+        test.doesNotThrow(function() {
+            var regex_pill = new RegexPill();
+        }, Error, "Should not throw an error upon instantiation.");
+
+        test.done();
+    },
+};
+
+exports['Validation'] = {
+    setUp: function(done) {
+        var regexPill = new RegexPill();
+        done();
+    },
 };

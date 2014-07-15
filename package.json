@@ -21,7 +21,7 @@
       "url": "https://github.com/lgoldstien/regex-pill/blob/master/LICENSE-MIT"
     }
   ],
-  "main": "lib/regex-pill",
+  "main": "lib/RegexPill",
   "engines": {
     "node": ">= 0.8.0"
   },

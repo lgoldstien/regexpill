@@ -1,4 +1,5 @@
-# regex-pill [![Build Status](https://secure.travis-ci.org/lgoldstien/regex-pill.png?branch=master)](http://travis-ci.org/lgoldstien/regex-pill)
+# Regex Pill
+[![Build Status](https://secure.travis-ci.org/lgoldstien/regex-pill.png?branch=master)](http://travis-ci.org/lgoldstien/regex-pill)
 
 Cure your Regex woes, a simple library containing regex examples.
 
@@ -6,8 +7,8 @@ Cure your Regex woes, a simple library containing regex examples.
 Install the module with: `npm install regex-pill`
 
 ```javascript
-var regex_pill = require('regex-pill');
-regex_pill.awesome(); // "awesome"
+var RegexPill = require('regex-pill');
+var regexPill = new RegexPill();
 ```
 
 ## Documentation
