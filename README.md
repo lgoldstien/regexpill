@@ -8,10 +8,10 @@ Install the module with: `npm install RegexPill`
 
 ```javascript
 var RegexPill = require('RegexPill');
-var regexPill = new RegexPill("a string to validata", "the/regex/you/want");
+var regexPill = new RegexPill("a string to validate", "the/regex/you/want");
 
 regexPill.isValid() // True | False
-regecPill.set("a new string to validata").isValid() // True | False
+regexPill.set("a new string to validate").isValid() // True | False
 ```
 
 ## Documentation
