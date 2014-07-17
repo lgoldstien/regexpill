@@ -1,14 +1,17 @@
 # Regex Pill
-[![Build Status](https://secure.travis-ci.org/lgoldstien/regex-pill.png?branch=master)](http://travis-ci.org/lgoldstien/regex-pill)
+[![Build Status](https://secure.travis-ci.org/lgoldstien/regex-pill.png?branch=master)](http://travis-ci.org/lgoldstien/RegexPill)
 
 Cure your Regex woes, a simple library containing regex examples.
 
 ## Getting Started
-Install the module with: `npm install regex-pill`
+Install the module with: `npm install RegexPill`
 
 ```javascript
-var RegexPill = require('regex-pill');
-var regexPill = new RegexPill();
+var RegexPill = require('RegexPill');
+var regexPill = new RegexPill("a string to validata", "the/regex/you/want");
+
+regexPill.isValid() // True | False
+regecPill.set("a new string to validata").isValid() // True | False
 ```
 
 ## Documentation
