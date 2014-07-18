@@ -1,5 +1,5 @@
 # Regex Pill
-[![Build Status](https://travis-ci.org/lgoldstien/RegexPill.svg?branch=master)](http://travis-ci.org/lgoldstien/RegexPill)
+[![Build Status](https://travis-ci.org/lgoldstien/regexpill.svg?branch=master)](http://travis-ci.org/lgoldstien/regexpill)
 
 Cure your Regex woes, a simple library containing regex examples.
 
