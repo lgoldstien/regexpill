@@ -4,7 +4,7 @@
 Cure your Regex woes, a simple library containing regex examples.
 
 ## Getting Started
-Install the module with: `npm install RegexPill`
+Install the module with: `npm install regexpill`
 
 ```javascript
 var RegexPill = require('RegexPill');
